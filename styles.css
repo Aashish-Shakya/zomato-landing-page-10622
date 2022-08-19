@@ -301,7 +301,7 @@
     gap: 16px;
 }
 
-.right {
+.right h1{
     font-weight: 500;
     font-size: 32px;
 }
@@ -379,9 +379,16 @@
     gap: 16px;
 }
 
-.download__app_container div a img {
+.download__app_container div img {
     width: 35%;
 }
+
+
+.container .explore_me{
+
+}
+.explore__me_container{}
+.me{}
 
 .footer {
     width: 100%;
@@ -401,19 +408,19 @@
     width: 120px;
 }
 
-.section1__buttonConatiner {
+.section1__buttonContainer {
     display: flex;
     gap: 16px;
 
 }
-
-.section1__buttonConatiner button {
+.section1__buttonContainer button{ 
     padding: 5px;
     width: 90px;
     border: 1px solid gray;
     border-radius: 5px;
     cursor: pointer;
-
+    background-color: transparent;
+     
 }
 
 .navigation_container {
@@ -471,7 +478,7 @@ color: black;
     font-size: 13px;
 }
 
-.footer__store_logos{
+.footer_store_logos{
     width: 100%;
 }
 
